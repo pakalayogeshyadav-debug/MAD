@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Dashboard Ring -->
+    <path
+        android:pathData="M 100,100 m -90,0 a 90,90 0 1,1 180,0 a 90,90 0 1,1 -180,0"
+        android:fillColor="#17191C"
+        android:strokeColor="#FF3B30"
+        android:strokeWidth="4"/>
+
+    <!-- Background gauge -->
+    <path
+        android:pathData="M 40,150 A 75,75 0 1,1 160,150"
+        android:strokeColor="#333333"
+        android:strokeWidth="15"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Active RPM arc (Racing red/Orange) -->
+    <path
+        android:pathData="M 40,150 A 75,75 0 0,1 140,65"
+        android:strokeColor="#FF3B30"
+        android:strokeWidth="15"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Needle pivot -->
+    <path
+        android:pathData="M 100,145 m -12,0 a 12,12 0 1,1 24,0 a 12,12 0 1,1 -24,0"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Needle pointer -->
+    <path
+        android:pathData="M 96,145 L 138,72 L 142,75 Z"
+        android:fillColor="#FFFFFF"/>
+</vector>

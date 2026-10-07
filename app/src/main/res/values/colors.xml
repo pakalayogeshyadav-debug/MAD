@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Automotive Theme Colors -->
+    <color name="charcoal_background">#0A0A0A</color> <!-- Carbon Black -->
+    <color name="card_background">#17191C</color> <!-- Dark Metallic Gray -->
+    <color name="primary_color">#FF3B30</color> <!-- Racing Red -->
+    <color name="primary_variant">#8B0000</color> <!-- Deep Red -->
+    <color name="on_primary">#FFFFFF</color>
+    <color name="secondary_color">#0A84FF</color> <!-- Dashboard Blue -->
+    <color name="secondary_variant">#004E98</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9CA3AF</color> <!-- Silver / Ash -->
+    <color name="error_color">#FF453A</color>
+</resources>

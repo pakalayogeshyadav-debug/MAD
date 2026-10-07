@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ServiceBeat" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryDark">@color/primary_variant</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="android:statusBarColor">@color/charcoal_background</item>
+        <item name="android:windowBackground">@color/charcoal_background</item>
+    </style>
+</resources>
